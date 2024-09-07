@@ -1,0 +1,30 @@
+button,
+.signup-btn,
+.login-btn {
+    color: var(--white-text);
+    font-size: 6rem;
+    border: 1px solid var(--white-text);
+    border-radius: 1rem;
+}
+
+button {
+    margin: 0 4rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: transparent;
+}
+
+.signup-btn,
+.login-btn {
+    text-decoration: none;
+    width: 60rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kofi-btn {
+    text-decoration: none;
+    font-size: 6rem;
+}

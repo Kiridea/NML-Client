@@ -8,6 +8,15 @@ body {
   min-height: 100vh;
 }
 
-#root {
-  min-height: 100vh;
+:root {
+  font-size: 4px;
+  --primary-color: rgb(246, 255, 254);
+  --secondary-color: rgb(50, 50, 50);
+  --tertiary-color: rgb(100, 100, 100);
+  --white-text: rgb(240, 240, 240);
 }
+
+#root {
+  min-height: 100%;
+}
+
