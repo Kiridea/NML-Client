@@ -24,6 +24,31 @@ button {
     align-items: center;
 }
 
+.submit-btn,
+.save-btn {
+    width: 40rem;
+    height: 9rem;
+    background-color: var(--secondary-color);
+    border-radius: 0;
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    width: 40rem;
+    height: 9rem;
+    margin: 0 4rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+    border: 1rem solid var(--secondary-color);
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+}
+
 .kofi-btn {
     text-decoration: none;
     font-size: 6rem;

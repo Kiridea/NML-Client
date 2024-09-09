@@ -15,6 +15,7 @@ function Home() {
                 <Link to="/login" className="login-btn">Log In</Link>
             </div>
         </section>
+        
     )
 }
 

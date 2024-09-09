@@ -1,0 +1,15 @@
+.dashboard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dashboard-form,
+.dashboard-link-display {
+    width: 45%;
+    min-height: 100rem;
+    margin: 5rem 0;
+    border: 1px solid red;
+}
