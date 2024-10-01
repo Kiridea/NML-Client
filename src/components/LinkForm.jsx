@@ -1,12 +1,10 @@
-
-function LinkForm() {
+function LinkForm({displayForm}) {
     return(
         <form>
-            <label htmlFor="display name">Display Name</label>
-            <input type="text" id="display-name" name="display-name" />
-            <label htmlFor="image">Image</label>
-            <input type="text" id="image-url" name="image-url" />
-            <button className="save-btn">Save</button>
+            <label htmlFor="link-url">Link URL</label>
+            <input type="text" id="link-url" name="link-url" />
+            <button type="submit" className="save-btn">Save</button>
+            <button type="button" className="cancel-btn" onClick={displayForm}>Cancel</button>
         </form>
     )
 }
